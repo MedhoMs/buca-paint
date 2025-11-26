@@ -1,0 +1,112 @@
+body {
+    position: fixed;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(204, 204, 204);
+}
+
+h1 {
+    user-select: none;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+td {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+#black {
+    background-color: black;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#aqua {
+    background-color: aqua;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#darkorchid {
+    background-color:darkorchid;
+}
+
+#pink {
+    background-color: pink;
+}
+
+section {
+    position: absolute;
+    top: 130px;
+    width: 95vw;
+    height: 80vh;
+    background-color: white;
+    border: 2px solid black;
+    cursor: url('/img/pencil.png') 1 30, auto;
+}
+
+.paint {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    margin-top: -135px;
+    margin-left: -51px;
+    cursor: url('/img/pencil.png') 1 30, auto;
+}
+
+.bigger {
+    margin-top: -143px;
+    margin-left: -55px;
+    width: 15px;
+    height: 15px;
+}
